@@ -20,18 +20,34 @@ public class CarModel {
     public CarModel() {
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getRegisteredNumber() {
         return registeredNumber;
     }
 
+    
+    /** 
+     * @param registeredNumber
+     */
     public void setRegisteredNumber(String registeredNumber) {
         this.registeredNumber = registeredNumber;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getCarColour() {
         return carColour;
     }
 
+    
+    /** 
+     * @param carColour
+     */
     public void setCarColour(String carColour) {
         this.carColour = carColour;
     }
